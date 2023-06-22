@@ -1,0 +1,67 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+body{
+    background-color: grey;
+}
+.logo-card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 15vh;
+    width: 125vh;
+    margin: 5px;
+}
+.main-card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    width: 125vh;
+    height: 70vh;
+}
+.logo{
+    height: 80px;
+}
+
+.navbar-buttons {
+    position: relative;
+    background-color: black;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+    width: auto
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .navbar-buttons:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .navbar-buttons:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+
+  }
+
