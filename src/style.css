@@ -1,6 +1,6 @@
 .btn {
   color: #f8f9fa;
-  font-size: 18px;
+  font-size: 14px;
   transition: background-color 0.3s, color 0.3s;
   border-radius: 2px;
 }
@@ -11,15 +11,14 @@
 
 .dropdown-menu {
   border-radius: 2px;
-  background: none;
+  background: lightsalmon;
   border: none;
+  width: 80px !important;
 }
 
 .dropdown-item {
-  margin-block: 1px;
   width: 10.156rem;
-  height: 50px;
-  font-size: 18px;
+  font-size: 14px;
   transition: background-color 0.3s, color 0.3s;
   border-radius: 2px;
   background: none;
@@ -29,8 +28,4 @@
   text-decoration: underline;
   background-color: #f8f9fa;
   color: #343a40;
-}
-
-#img-strip{
-  width: 100vh;
 }
