@@ -1,0 +1,36 @@
+.btn {
+  color: #f8f9fa;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 2px;
+}
+.btn:hover {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.dropdown-menu {
+  border-radius: 2px;
+  background: none;
+  border: none;
+}
+
+.dropdown-item {
+  margin-block: 1px;
+  width: 10.156rem;
+  height: 50px;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 2px;
+  background: none;
+  color: #343a40;
+}
+.dropdown-item:hover {
+  text-decoration: underline;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+#img-strip{
+  width: 100vh;
+}
